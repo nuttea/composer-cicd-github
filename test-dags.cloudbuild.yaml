@@ -28,4 +28,6 @@ steps:
     entrypoint: python3.10
     args: ["-m", "pytest", "-s", "dags/"]
 
+options:
+  logging: CLOUD_LOGGING_ONLY
 # [END composer_cicd_unittest_yaml]
