@@ -42,3 +42,4 @@ with models.DAG(
     print_dag_run_conf = bash.BashOperator(
         task_id="print_dag_run_conf", bash_command="echo {{ dag_run.id }}"
     )
+    print("Hello Airflow")
