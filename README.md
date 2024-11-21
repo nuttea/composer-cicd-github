@@ -35,6 +35,11 @@ pyenv global 3.10.15
 python --version
 ```
 
+```
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
 # Run local Airflow
 
 ## Environment Prep
